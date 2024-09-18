@@ -19,6 +19,12 @@ jobs:
         with:
           submodules: true
           lfs: false
+
+      # Add this step to set executable permissions for mvnw
+      - name: Set execute permission for mvnw
+        run: chmod +x ./mvnw
+
+      # Continue with your build and deployment process
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
