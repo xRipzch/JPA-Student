@@ -1,0 +1,19 @@
+GET http://localhost:8080/students/Bruce
+accept: application/json
+
+
+###
+
+
+GET http://localhost:8080/students
+
+
+
+###
+
+GET http://localhost:8080/students/1990-01-01
+
+
+
+
+
